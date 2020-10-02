@@ -1,0 +1,75 @@
+ git*{
+    box-sizing: border-box;}/*выбираем способ расчета с учетом рамки*/
+    a, button{
+transition: all .3s ease-in-out;
+    }
+    h2{
+        margin: 50px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 18px;  
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder; }
+
+    ul li{
+        margin: 0;
+        text-align: center;
+        list-style: none;
+        
+    }
+    .title{
+        font-size: 30px;
+        color: #00c9cc;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .continius{
+        margin: 50px 0 0 0 ;
+    }
+    .contin{
+        margin: 0;
+            }
+            i{
+                font-size: 70px;
+            }
+           
+            /*.row{
+                outline: 2px solid white;
+              
+            }*/
+            .col{
+                background-color:white ;
+                box-sizing: border-box;
+                width: 25%;
+                width: calc(25% - 2 * 20px);/*растягиваем по всей длине строки*/
+                border: 2px solid white;
+                
+                padding: 15px;
+                margin: 20px; /*используем для растягивания*/
+                transition: all .25s ease-in;
+                text-align: center;
+                
+            }
+            
+            .col:hover{
+                background-color: #0ecacd;
+                color: white;
+            }
+            .col:hover{
+                fill: orange;
+            }
+           
+            .row--inline{
+                font-size: 0%;
+            }
+        
+            .col--inline{
+                display: inline-block;
+                font-size: 18px;               
+                box-sizing: border-box;
+               
+            }
+           
+           
+           
+           
